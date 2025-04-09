@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TASK remove</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="text" name="name" value="" id="name" required>
+        <input type="text" name="address" value="" id="address" required>
+        <input type="text" name="email" value="" id="email" required>
+        <input type="text" name="number" value="" id="number" required>
+        <button onclick="mydata()">submit</button>
+    </div>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name:</th>
+                <th>Address:</th>
+                <th>Email:</th>
+                <th>Number:</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="./index.js"></script>
+</body>
+
+</html>
